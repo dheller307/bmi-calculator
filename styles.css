@@ -1,0 +1,46 @@
+body{
+    background-color:rgb(43, 42, 42);
+    color:azure;
+    font-family:sans-serif;
+}
+input[type="text"] {
+    background-color: #c0bebe;
+    color: #030303;
+    border: 1px solid #000000;
+    padding: 8px;
+    border-radius: 4px;
+    width: 40px;
+}
+.c{
+    margin-right: 1500px;
+    border: 5px solid white;
+    padding: 25px;
+    padding-top: 0px;
+    padding-left: 30px;
+    border-radius: 20px;
+    background-color: rgb(36, 36, 36);
+}
+h1{
+    position: sticky;
+}
+a:link{
+    color:aqua;
+}
+a:visited{
+    color:teal;
+}
+.c button{
+    font-family:sans-serif;
+    background-color: #c0bebe;
+    color: #030303;
+    border: 1px solid #000000;
+    padding: 8px;
+    border-radius: 4px;
+    width: 80px;
+}
+button:hover{
+    background-color:teal;
+}
+button:active{
+    background-color:aqua;
+}
