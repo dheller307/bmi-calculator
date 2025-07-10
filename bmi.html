@@ -5,22 +5,22 @@
         <link rel="stylesheet" href="styles.css">
     </head>
     <body>
-        <div class="text-block">
+        <div id="title">
             <h1>Body Mass Index Calculator</h1>
             <hr>
-            <h2>Body Mass Index</h2>
-            <p>Body Mass Index, frequently referred to as BMI, is a calculation used to 
-                estimate body fat percentage based on a person's height and weight.</p>
-            <h3>Key</h3>
-            <p>BMI = Weight in Kilograms divided by Height in Meters.</p>
-            <p>Underweight: less than 18.5, Normal weight: 18.5-24.9, Overweight: 25-29.9, and Obese: 30 or higher.</p>
-            <h3>Important Note</h3>
-            <p>BMI does not take all factors into account and consulting a healthcare proffesional is required for a more comprehensive assessment.</p>
-            <p>For more information regarding BMI:
-                <a href="https://my.clevelandclinic.org/health/articles/9464-body-mass-index-bmi">
-                Click Here</a></p>
-            <hr>
         </div>
+        <h2>Body Mass Index</h2>
+        <p>Body Mass Index, frequently referred to as BMI, is a calculation used to 
+            estimate body fat percentage based on a person's height and weight.</p>
+        <h3>Key</h3>
+        <p>BMI = Weight in Kilograms divided by Height in Meters.</p>
+        <p>Underweight: less than 18.5, Normal weight: 18.5-24.9, Overweight: 25-29.9, and Obese: 30 or higher.</p>
+        <h3>Important Note</h3>
+        <p>BMI does not take all factors into account and consulting a healthcare proffesional is required for a more comprehensive assessment.</p>
+        <p>For more information regarding BMI:
+            <a href="https://my.clevelandclinic.org/health/articles/9464-body-mass-index-bmi">
+            Click Here</a></p>
+        <hr>
         <form class="s">
             <h2>US Standard Calculator</h2>
             <hr>
@@ -37,6 +37,21 @@
             <button type="submit" id="custButton">Submit</button>
             <p id="output"></p>
         </form>
+        <form class="m">
+            <h2>Metric Calculator</h2>
+            <hr>
+            <h3>Height</h3>
+            <input type="text" id="meters" name="meters">
+            <label for="meters">meters</label>
+            <h3>Weight</h3>
+            <input type="text" id="kilograms" name="kilograms">
+            <label for="kilograms">kilograms</label>
+            <br>
+            <br>
+            <button type="submit" id="metButton">Submit</button>
+            <p id="output2"></p>
+        </form>
+        <img src="bmiScale.png" alt="BMI Scale" id="bmiImg">
         <script src="bmi.js"></script>
     </body>
 </html>

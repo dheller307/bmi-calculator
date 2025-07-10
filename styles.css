@@ -12,22 +12,15 @@ input[type="text"] {
     width: 40px;
 }
 .s{
-    margin-right: 1500px;
     border: 5px solid white;
     padding: 25px;
     padding-top: 0px;
     padding-left: 30px;
     border-radius: 20px;
     background-color: rgb(36, 36, 36);
-}
-h1{
-    position: sticky;
-}
-a:link{
-    color:aqua;
-}
-a:visited{
-    color:teal;
+    width:fit-content;
+    float:left;
+    transform:translate(50px, 50px);
 }
 .s button{
     font-family:sans-serif;
@@ -38,9 +31,41 @@ a:visited{
     border-radius: 4px;
     width: 80px;
 }
+.m{
+    border: 5px solid white;
+    padding: 25px;
+    padding-top: 0px;
+    padding-left: 30px;
+    border-radius: 20px;
+    background-color: rgb(36, 36, 36);
+    width:fit-content;
+    float:right;
+    transform:translate(-1100px, 50px);
+}
+.m button{
+    font-family:sans-serif;
+    background-color: #c0bebe;
+    color: #030303;
+    border: 1px solid #000000;
+    padding: 8px;
+    border-radius: 4px;
+    width: 80px;
+}
+a:link{
+    color:aqua;
+}
+a:visited{
+    color:teal;
+}
 button:hover{
     background-color:teal;
 }
 button:active{
     background-color:aqua;
+}
+#bmiImg{
+    position: absolute;
+    left: 1300px;
+    top: 190px;
+    transform:scale(1.35);
 }
